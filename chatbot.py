@@ -12,32 +12,32 @@ def brainrot_chatbot():
         
         if "hello" in user_input or "hi" in user_input:
             print(random.choice([
-                "yall are chopped",
-                "chopped chin this must be u",
-                "should i date p diddy or chopped chin"
+                "ChatBot: yall are chopped",
+                "ChatBot: chopped chin this must be u",
+                "ChatBot: should i date p diddy or chopped chin"
             ]))
         elif "how are you" in user_input:
             print(random.choice([
-                "Living my best digital life, no cap 🧢",
-                "I'm straight vibing, fam. It's bussin' 😤",
-                "Feeling extra chopped"
+                "ChatBot: Living my best digital life, no cap 🧢",
+                "ChatBot: I'm straight vibing, fam. It's bussin' 😤",
+                "ChatBot: Feeling extra chopped"
             ]))
         elif "your name" in user_input:
             print(random.choice([
-                "i am known as the sneaky gooners",
-                "bedwetter",
-                "I'm Terminally Online"
+                "ChatBot: i am known as the sneaky gooners",
+                "ChatBot: bedwetter",
+                "ChatBot: I'm Terminally Online"
             ]))
         elif "time" in user_input:
             from datetime import datetime
             current_time = datetime.now().strftime("%H:%M:%S")
-            print(f"It's {current_time} and you're still not over your flop era? Cringe ")
+            print(f"ChatBot: It's {current_time} and you're still not over your flop era? Cringe ")
         else:
             print(random.choice([
-                " that's so random. I'm living for it tho ",
-                "Weird flex but ok",
-                "its time gooning gang",
-                "Sorry, I don't speak flop"
+                "ChatBot: that's so random. I'm living for it tho ",
+                "ChatBot: Weird flex but ok",
+                "ChatBot: its time gooning gang",
+                "ChatBot: Sorry, I don't speak flop"
             ]))
 
 if __name__ == "__main__":
