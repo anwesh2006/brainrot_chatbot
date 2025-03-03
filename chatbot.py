@@ -13,7 +13,7 @@ def brainrot_chatbot():
         if "hello" in user_input or "hi" in user_input:
             print(random.choice([
                 "yall are chopped",
-                "chopped chin",
+                "chopped chin this must be u",
                 "should i date p diddy or chopped chin"
             ]))
         elif "how are you" in user_input:
@@ -36,7 +36,7 @@ def brainrot_chatbot():
             print(random.choice([
                 " that's so random. I'm living for it tho ",
                 "Weird flex but ok",
-                "That's gooning gang",
+                "its time gooning gang",
                 "Sorry, I don't speak flop"
             ]))
 
